@@ -1,4 +1,4 @@
-package com.santLaza.gastos_bot;
+package com.santlaza.gastosbot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
