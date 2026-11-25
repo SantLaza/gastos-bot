@@ -36,6 +36,13 @@ public class Gasto {
         this.fecha = fecha;
     }
 
+    // Cambia los datos editables. La validación la hace GastoService antes de llamar a esto.
+    public void actualizar(BigDecimal monto, String descripcion, String categoria) {
+        this.monto = monto;
+        this.descripcion = descripcion;
+        this.categoria = categoria;
+    }
+
     public Long getId() { return id; }
     public Long getChatId() { return chatId; }
     public BigDecimal getMonto() { return monto; }
